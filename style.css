@@ -1,0 +1,38 @@
+.container{
+    width:100%;
+    text-align: center;
+}
+#header{
+    width: 60%;
+    margin:auto;
+}
+input{
+    margin:1rem;
+    padding: 0.5rem;
+}
+#menu-items{
+    width:70%;
+    margin:1rem auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    gap: 15px;
+}
+img{ 
+    width:50%;
+    height: 200px;
+
+}
+h6{
+    font-size: larger;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item{
+    width:100%;
+    display: flex;
+    gap:10px;
+}
